@@ -100,3 +100,14 @@ footer {
         }
       }
 }
+
+@media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      gap: 2rem;
+/* 
+      & nav {
+        flex-direction: column;
+      } */
+    }
+}

@@ -109,3 +109,11 @@ section.gallery {
       transform: translateY(100%);
     }
   }
+
+  @media (max-width: 500px) {
+    section.gallery {
+      & .content {
+        gap: .85rem;;
+      }
+    }
+  }
